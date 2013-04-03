@@ -17,11 +17,6 @@ function spotseo_init() {
 	elgg_register_library('elgg:spotseo', elgg_get_plugins_path() . 'spotseo/lib/spotseo.php');
 	elgg_load_library('elgg:spotseo');
 
-	// Extend some views?
-		
-	// // Register JS library (probably won't need this)
-	// $r_js = elgg_get_simplecache_url('js', 'spotseo/spotseo');
-	// elgg_register_simplecache_view('js/spotseo/spotseo');
-	// elgg_register_js('elgg.spotseo', $r_js);
-	// elgg_load_js('elgg.spotseo');
+	// Extend page/elements/head
+	elgg_extend_view('page/elements/head', 'spotseo/meta_description');
 }
