@@ -5,12 +5,12 @@
  * @package SpotSEO
  * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
  * @author Jeff Tilson
- * @copyright THINK Global School 2010 - 2013
+ * @copyright THINK Global School 2010 - 2015
  * @link http://www.thinkglobalschool.com/
  *
  */
 
-$english = array(
+return array(
 	// Content strings
 	'spotseo:index' => "Spot is a mashup of a social network, classrooms, wikis, photos and more. Students and teachers meet in this virtual space to research, produce, publish and discuss.",
 	'spotseo:activity' => "What's happening on THINK Spot. All the latest blogs, bookmarks, photos discussions and more.",
@@ -28,5 +28,3 @@ $english = array(
 	'spotseo:videos' => "Videos uploaded by THINK Spot students, faculty and staff.",
 	'spotseo:webvideos' => "Web videos submitted by THINK Spot students, faculty and staff.",
 );
-
-add_translation('en',$english);
